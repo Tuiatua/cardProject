@@ -1,6 +1,11 @@
+
+/* https://www.visitfresnocounty.org/blog/post/best-pumpkin-patches-in-fresno-county/ */
+
+
 .card-area{
     display:flex;
-    flex-direction:column;
+    flex-wrap:wrap;
+    justify-content:space-around;
 }
 .card{
     height:250px;
@@ -8,7 +13,7 @@
     background-color:wheat;
     display:flex;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin:10px;
+    margin:13px;
 }
 .Left{
     min-height:245px;
@@ -28,26 +33,36 @@
     color:white;
 }
 .bottom{
-height:83px;
+height:58px;
     text-align:center;
+    background-color:mediumpurple;
 }
 .up{
     width:552px;
     height:83px;
     border-bottom:black solid 3px;
     text-align:center;
+    background-color:orangered;
 }
 .middle{
 width:552px;
     height:83px;
     border-bottom:black solid 3px;
     text-align:center;
+    background-color:darkorange;
 }
 .down{
 width:552px;
-    height:83px;
+    height:73px;
     text-align:center;
+    background-color:yellow;
 }
 .image{
     border-bottom:black solid 3px;
+}
+.card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+}
+h1{
+    text-align:center;
 }
