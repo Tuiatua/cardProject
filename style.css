@@ -43,6 +43,7 @@ height:58px;
     border-bottom:black solid 3px;
     text-align:center;
     background-color:orangered;
+    font-family:serif;
 }
 .middle{
 width:552px;
@@ -50,12 +51,14 @@ width:552px;
     border-bottom:black solid 3px;
     text-align:center;
     background-color:darkorange;
+    font-family:sans-serif;
 }
 .down{
 width:552px;
     height:73px;
     text-align:center;
     background-color:yellow;
+    font-family:monospace;
 }
 .image{
     border-bottom:black solid 3px;
